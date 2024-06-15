@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hide Content</title>
+<style>
+    .hidden-content {
+        display: none;
+    }
+    
+    .hidden-content:target {
+        display: block;
+    }
+</style>
+</head>
+<body>
+
+<p>This is visible content.</p>
+
+<a href="#hiddenContent">Hide Content</a>
+
+<div id="hiddenContent" class="hidden-content">
+    <p>This is the hidden content.</p>
+</div>
+
+</body>
+</html>
